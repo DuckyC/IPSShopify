@@ -1,0 +1,27 @@
+{
+  "log_level": "info",
+  "shopify": {
+    "shop_url": null,
+    "access_token": "",
+    "location_id": null
+  },
+  "ips": {
+    "database": {
+      "server": "localhost",
+      "options": {
+        "instanceName": "IDEALSQL",
+        "database": "IPSTransaction",
+        "trustServerCertificate": true,
+        "encrypt": false
+      },
+      "authentication": {
+        "type": "default",
+        "options": {
+          "userName": null,
+          "password": null
+        }
+      }
+    }
+  },
+  "create_csv_with_pos_items_not_in_shopify_file_location": null
+}
