@@ -16,7 +16,7 @@
   },
   "scripts": {
     "run": "bun run index.ts",
-    "build-windows": "bun build --compile --minify --sourcemap --target=bun-windows-x64 index.ts --outfile out/IPSShopify.exe",
+    "build-windows": "bun build --compile --minify --sourcemap --target=bun-windows-x64-baseline index.ts --outfile out/IPSShopify.exe",
     "build": "bun build --compile --minify --sourcemap index.ts --outfile out/IPSShopify"
   }
 }
